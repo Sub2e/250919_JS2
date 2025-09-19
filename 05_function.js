@@ -76,3 +76,12 @@ if (login4("admin", "pass")) {
 } else {
   console.log("실패했습니다!");
 }
+
+// 호이스팅 예고 (?)
+awesomeFun(); //
+
+function awesomeFun() {
+  console.log("멋진 기능!");
+} // 선언을 하고
+
+awesomeFun(); // 호출을 한다
