@@ -52,4 +52,10 @@ for (let i = 1; i <= 50; i++) {
   if (result >= 1000) break; // {}가 1줄이면 생략.
   result *= i;
 }
-ㅊconsole.log(result);
+console.log(result);
+
+// for문도 무한 반복이 될까?
+for (;;) {
+  // 종료식을 생략하면 ?
+  break;
+}
