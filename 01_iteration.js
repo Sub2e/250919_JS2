@@ -52,4 +52,4 @@ for (let i = 1; i <= 50; i++) {
   if (result >= 1000) break; // {}가 1줄이면 생략.
   result *= i;
 }
-console.log(result);
+ㅊconsole.log(result);
